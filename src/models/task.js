@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import validator from 'validator'
 
-const Task = mongoose.model('task', {
+const Task = mongoose.model('Task', {
   description: {
     type: String,
     required: true,
